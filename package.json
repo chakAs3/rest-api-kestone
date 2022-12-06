@@ -1,0 +1,21 @@
+{
+  "name": "@keystone-6/example-rest-api",
+  "version": "0.0.5",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "keystone dev",
+    "start": "keystone start",
+    "build": "keystone build",
+    "seed-data": "keystone --seed-data"
+  },
+  "dependencies": {
+    "@keystone-6/core": "^3.0.0",
+    "express": "^4.17.1",
+    "query-string": "^7.1.1"
+  },
+  "devDependencies": {
+    "typescript": "~4.7.4"
+  },
+  "repository": "https://github.com/keystonejs/keystone/tree/main/examples/rest-api"
+}
